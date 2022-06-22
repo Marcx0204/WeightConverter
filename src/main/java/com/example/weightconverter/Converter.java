@@ -6,6 +6,12 @@ public class Converter {
     ) {
         return ounce * 28.35;
     }
+
+    public double stonetokilo(
+            double stone
+    ) {
+        return stone * 6.35;
+    }
 }
 
 

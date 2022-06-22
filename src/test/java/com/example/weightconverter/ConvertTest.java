@@ -19,7 +19,21 @@ public class ConvertTest {
         //Assert
         assertEquals(expected, result);
 
-        //Hello
     }
+    @Test
+    void stonetokiloTest(){
+        // Arange
+        double stone = 5;
+        double expected = 31.75;
+
+        //Act
+        double result = convert.stonetokilo(stone);
+
+        //Assert
+        assertEquals(expected, result);
+
+    }
+
+
 
 }
