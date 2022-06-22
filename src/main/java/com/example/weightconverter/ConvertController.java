@@ -15,6 +15,13 @@ public class ConvertController {
             return convert.ouncetogram(ounce);
         }
 
-
-
+    @RequestMapping("/stonetokilo")
+    public double stone (
+            @RequestParam double stone) {
+        return convert.stonetokilo(stone);
     }
+
+
+
+
+}
